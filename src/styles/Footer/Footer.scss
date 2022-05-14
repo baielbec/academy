@@ -1,0 +1,31 @@
+#Footer{
+  background: #313131;
+  min-height: 30vh;
+  margin-bottom: -3%;
+  .container{
+    .Footer-lop{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .Pol{
+        display: flex;
+        align-items: center;
+        margin: 0 10px;
+      }
+      .lop{
+        display: flex;
+        align-items: center;
+        margin: 0 10px;
+      }
+      .Text{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 31px;
+        text-align: center;
+        letter-spacing: 0.003em;
+        color: red;
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+
+
+
+#about{
+  .name{
+    position: absolute;
+    width: 183px;
+    height: 143px;
+    background: #FF001E;
+    filter: blur(400px);
+  }
+  .team{
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.003em;
+    color: #FFFFFF;
+    text-align: center;
+    &--moni{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 23px;
+      line-height: 140%;
+      text-align: center;
+      letter-spacing: 0.003em;
+      color: #F5F7F9;
+      margin-bottom: 50px;
+    }
+  }
+  .wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .blog{
+    width: 370px;
+    height: 312px;
+    background: #313131;
+    border-radius: 5px;
+    &:hover{
+      width: 372px;
+      height: 312px;
+      background: #FF001E;
+      border-radius: 5px;
+      transition: 2s;
+      -webkit-box-shadow: 11px 19px 100px 100px rgba(229, 37, 54, 0.2);
+      -moz-box-shadow: 11px 19px 100px 100px rgba(229, 37, 54, 0.2);
+      box-shadow: 11px 19px 100px 100px rgba(229, 37, 54, 0.2);
+      }
+    &--big{
+      margin-top: -40px;
+      margin-left: 40px;
+      width: 80px;
+      height: 80px;
+      background: #313131;
+      border: 1px solid #FFFFFF;
+      border-radius: 50%;
+      position: absolute;
+      &:hover{
+        border-radius: 50%;
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        background: #FF001E;
+        transition: 2s;
+      }
+      &--bolg{
+        margin-top: 10px;
+        margin-left: 11px;
+        &--trends{
+          padding-top: 80px;
+          padding-left: 20px;
+
+          &--devel{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 36px;
+            letter-spacing: 0.003em;
+            color: #FFFFFF;
+
+
+
+            &--the{
+              width: 332px;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              letter-spacing: 0.003em;
+              color: #FFFFFF;
+            }
+          }
+        }
+      }
+    }
+  }
+}

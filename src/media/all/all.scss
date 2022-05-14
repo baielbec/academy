@@ -1,0 +1,26 @@
+@media (max-width: 577px) {
+  #All{
+    .container{
+      text-align: center;
+      margin-bottom: 3%;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 54px;
+      letter-spacing: 0.003em;
+      color: #FFFFFF;
+      .all{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        .nav{
+          font-weight: 400;
+          font-size: 19px;
+          line-height: -16px;
+          letter-spacing: 0.003em;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}

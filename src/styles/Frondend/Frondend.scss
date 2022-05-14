@@ -1,0 +1,24 @@
+#Frondend{
+  .container{
+    .div{
+      display: flex;
+      flex-wrap: wrap;
+      .box{
+        margin: 20px 15px;
+        width: 87px;
+        height: 76px;
+        border-radius: 10px;
+        background: #313131;
+        color: #fff;
+        .logo{
+          margin-left: 30px;
+          padding-top: 10px;
+        }
+        .lad{
+          text-align: center;
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+}
